@@ -11,6 +11,7 @@
 		3722BBD0299A91F400DDA3DA /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722BBCF299A91F400DDA3DA /* DailyScrum.swift */; };
 		3722BBD2299A9B8200DDA3DA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722BBD1299A9B8200DDA3DA /* CardView.swift */; };
 		3722BBD4299AAA3500DDA3DA /* TrailingIconLablelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722BBD3299AAA3500DDA3DA /* TrailingIconLablelStyle.swift */; };
+		3722BBD8299AD2A400DDA3DA /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722BBD7299AD2A400DDA3DA /* ScrumsView.swift */; };
 		375DA1682991279C00670C91 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DA1672991279C00670C91 /* ScrumdingerApp.swift */; };
 		375DA16A2991279C00670C91 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DA1692991279C00670C91 /* MeetingView.swift */; };
 		375DA16C2991279D00670C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375DA16B2991279D00670C91 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		3722BBCF299A91F400DDA3DA /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		3722BBD1299A9B8200DDA3DA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3722BBD3299AAA3500DDA3DA /* TrailingIconLablelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLablelStyle.swift; sourceTree = "<group>"; };
+		3722BBD7299AD2A400DDA3DA /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		375DA1642991279C00670C91 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375DA1672991279C00670C91 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		375DA1692991279C00670C91 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,24 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3722BBD5299AD22F00DDA3DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3722BBD1299A9B8200DDA3DA /* CardView.swift */,
+				375DA1692991279C00670C91 /* MeetingView.swift */,
+				3722BBD7299AD2A400DDA3DA /* ScrumsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3722BBD6299AD25300DDA3DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3722BBD3299AAA3500DDA3DA /* TrailingIconLablelStyle.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		375DA15B2991279C00670C91 = {
 			isa = PBXGroup;
 			children = (
@@ -68,13 +88,12 @@
 		375DA1662991279C00670C91 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				3722BBD6299AD25300DDA3DA /* Supporting Files */,
+				3722BBD5299AD22F00DDA3DA /* Views */,
 				3722BBCC2992B07500DDA3DA /* Models */,
 				375DA1672991279C00670C91 /* ScrumdingerApp.swift */,
-				375DA1692991279C00670C91 /* MeetingView.swift */,
 				375DA16B2991279D00670C91 /* Assets.xcassets */,
 				375DA16D2991279D00670C91 /* Preview Content */,
-				3722BBD1299A9B8200DDA3DA /* CardView.swift */,
-				3722BBD3299AAA3500DDA3DA /* TrailingIconLablelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -160,6 +179,7 @@
 				3722BBD0299A91F400DDA3DA /* DailyScrum.swift in Sources */,
 				3722BBCE2992B09000DDA3DA /* Theme.swift in Sources */,
 				375DA16A2991279C00670C91 /* MeetingView.swift in Sources */,
+				3722BBD8299AD2A400DDA3DA /* ScrumsView.swift in Sources */,
 				375DA1682991279C00670C91 /* ScrumdingerApp.swift in Sources */,
 				3722BBD2299A9B8200DDA3DA /* CardView.swift in Sources */,
 				3722BBD4299AAA3500DDA3DA /* TrailingIconLablelStyle.swift in Sources */,
