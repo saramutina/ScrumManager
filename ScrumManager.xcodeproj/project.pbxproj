@@ -12,7 +12,7 @@
 		3722BBD2299A9B8200DDA3DA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722BBD1299A9B8200DDA3DA /* CardView.swift */; };
 		3722BBD4299AAA3500DDA3DA /* TrailingIconLablelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722BBD3299AAA3500DDA3DA /* TrailingIconLablelStyle.swift */; };
 		3722BBD8299AD2A400DDA3DA /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722BBD7299AD2A400DDA3DA /* ScrumsView.swift */; };
-		375DA1682991279C00670C91 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DA1672991279C00670C91 /* ScrumdingerApp.swift */; };
+		375DA1682991279C00670C91 /* ScrumManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DA1672991279C00670C91 /* ScrumManagerApp.swift */; };
 		375DA16A2991279C00670C91 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DA1692991279C00670C91 /* MeetingView.swift */; };
 		375DA16C2991279D00670C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375DA16B2991279D00670C91 /* Assets.xcassets */; };
 		375DA16F2991279D00670C91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375DA16E2991279D00670C91 /* Preview Assets.xcassets */; };
@@ -24,8 +24,8 @@
 		3722BBD1299A9B8200DDA3DA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3722BBD3299AAA3500DDA3DA /* TrailingIconLablelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLablelStyle.swift; sourceTree = "<group>"; };
 		3722BBD7299AD2A400DDA3DA /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
-		375DA1642991279C00670C91 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		375DA1672991279C00670C91 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
+		375DA1642991279C00670C91 /* ScrumManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		375DA1672991279C00670C91 /* ScrumManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumManagerApp.swift; sourceTree = "<group>"; };
 		375DA1692991279C00670C91 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		375DA16B2991279D00670C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		375DA16E2991279D00670C91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		375DA15B2991279C00670C91 = {
 			isa = PBXGroup;
 			children = (
-				375DA1662991279C00670C91 /* Scrumdinger */,
+				375DA1662991279C00670C91 /* ScrumManager */,
 				375DA1652991279C00670C91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,22 +80,22 @@
 		375DA1652991279C00670C91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				375DA1642991279C00670C91 /* Scrumdinger.app */,
+				375DA1642991279C00670C91 /* ScrumManager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		375DA1662991279C00670C91 /* Scrumdinger */ = {
+		375DA1662991279C00670C91 /* ScrumManager */ = {
 			isa = PBXGroup;
 			children = (
 				3722BBD6299AD25300DDA3DA /* Supporting Files */,
 				3722BBD5299AD22F00DDA3DA /* Views */,
 				3722BBCC2992B07500DDA3DA /* Models */,
-				375DA1672991279C00670C91 /* ScrumdingerApp.swift */,
+				375DA1672991279C00670C91 /* ScrumManagerApp.swift */,
 				375DA16B2991279D00670C91 /* Assets.xcassets */,
 				375DA16D2991279D00670C91 /* Preview Content */,
 			);
-			path = Scrumdinger;
+			path = ScrumManager;
 			sourceTree = "<group>";
 		};
 		375DA16D2991279D00670C91 /* Preview Content */ = {
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		375DA1632991279C00670C91 /* Scrumdinger */ = {
+		375DA1632991279C00670C91 /* ScrumManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 375DA1722991279D00670C91 /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
+			buildConfigurationList = 375DA1722991279D00670C91 /* Build configuration list for PBXNativeTarget "ScrumManager" */;
 			buildPhases = (
 				375DA1602991279C00670C91 /* Sources */,
 				375DA1612991279C00670C91 /* Frameworks */,
@@ -121,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = Scrumdinger;
+			name = ScrumManager;
 			productName = Scrumdinger;
-			productReference = 375DA1642991279C00670C91 /* Scrumdinger.app */;
+			productReference = 375DA1642991279C00670C91 /* ScrumManager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 375DA15F2991279C00670C91 /* Build configuration list for PBXProject "Scrumdinger" */;
+			buildConfigurationList = 375DA15F2991279C00670C91 /* Build configuration list for PBXProject "ScrumManager" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				375DA1632991279C00670C91 /* Scrumdinger */,
+				375DA1632991279C00670C91 /* ScrumManager */,
 			);
 		};
 /* End PBXProject section */
@@ -180,7 +180,7 @@
 				3722BBCE2992B09000DDA3DA /* Theme.swift in Sources */,
 				375DA16A2991279C00670C91 /* MeetingView.swift in Sources */,
 				3722BBD8299AD2A400DDA3DA /* ScrumsView.swift in Sources */,
-				375DA1682991279C00670C91 /* ScrumdingerApp.swift in Sources */,
+				375DA1682991279C00670C91 /* ScrumManagerApp.swift in Sources */,
 				3722BBD2299A9B8200DDA3DA /* CardView.swift in Sources */,
 				3722BBD4299AAA3500DDA3DA /* TrailingIconLablelStyle.swift in Sources */,
 			);
@@ -310,7 +310,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ScrumManager/Preview Content\"";
 				DEVELOPMENT_TEAM = 37884VKC8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -324,7 +324,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.saramutina.Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saramutina.ScrumManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ScrumManager/Preview Content\"";
 				DEVELOPMENT_TEAM = 37884VKC8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -353,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.saramutina.Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saramutina.ScrumManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -364,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		375DA15F2991279C00670C91 /* Build configuration list for PBXProject "Scrumdinger" */ = {
+		375DA15F2991279C00670C91 /* Build configuration list for PBXProject "ScrumManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				375DA1702991279D00670C91 /* Debug */,
@@ -373,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		375DA1722991279D00670C91 /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
+		375DA1722991279D00670C91 /* Build configuration list for PBXNativeTarget "ScrumManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				375DA1732991279D00670C91 /* Debug */,
