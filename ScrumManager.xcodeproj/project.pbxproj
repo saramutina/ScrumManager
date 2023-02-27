@@ -18,6 +18,8 @@
 		375DA16F2991279D00670C91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375DA16E2991279D00670C91 /* Preview Assets.xcassets */; };
 		377A2D4F29A484FB00FFB8F2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A2D4E29A484FB00FFB8F2 /* DetailView.swift */; };
 		377A2D5129ABCD0000FFB8F2 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A2D5029ABCD0000FFB8F2 /* DetailEditView.swift */; };
+		377A2D5329AC67A200FFB8F2 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A2D5229AC67A200FFB8F2 /* ThemeView.swift */; };
+		377A2D5529AC690400FFB8F2 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A2D5429AC690400FFB8F2 /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		375DA16E2991279D00670C91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		377A2D4E29A484FB00FFB8F2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		377A2D5029ABCD0000FFB8F2 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		377A2D5229AC67A200FFB8F2 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		377A2D5429AC690400FFB8F2 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				3722BBD3299AAA3500DDA3DA /* TrailingIconLablelStyle.swift */,
+				377A2D5229AC67A200FFB8F2 /* ThemeView.swift */,
+				377A2D5429AC690400FFB8F2 /* ThemePicker.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377A2D5529AC690400FFB8F2 /* ThemePicker.swift in Sources */,
 				3722BBD0299A91F400DDA3DA /* DailyScrum.swift in Sources */,
 				377A2D4F29A484FB00FFB8F2 /* DetailView.swift in Sources */,
 				377A2D5129ABCD0000FFB8F2 /* DetailEditView.swift in Sources */,
@@ -190,6 +197,7 @@
 				3722BBD8299AD2A400DDA3DA /* ScrumsView.swift in Sources */,
 				375DA1682991279C00670C91 /* ScrumManagerApp.swift in Sources */,
 				3722BBD2299A9B8200DDA3DA /* CardView.swift in Sources */,
+				377A2D5329AC67A200FFB8F2 /* ThemeView.swift in Sources */,
 				3722BBD4299AAA3500DDA3DA /* TrailingIconLablelStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
