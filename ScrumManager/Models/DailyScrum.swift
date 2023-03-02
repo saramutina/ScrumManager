@@ -51,13 +51,21 @@ extension DailyScrum {
         lengthInMinutes = Int(data.lengthInMinutes)
         theme = data.theme
     }
+    
+    init(data: Data) {
+        self.id = UUID()
+        self.title = data.title
+        self.attendees = data.attendees
+        self.lengthInMinutes = Int(data.lengthInMinutes)
+        self.theme = data.theme
+    }
 }
 
 // MARK: Sample data
 extension DailyScrum {
     static let sampleData: [DailyScrum] =
     [
-        DailyScrum(title: "Hogwarts", attendees: ["Minerva", "Albus", "Severus", "Harry", "Hermionie", "Ron", "Salazar", "Helga", "Rowena", "Godric"], lengthInMinutes: 1, theme: .yellow),
+        DailyScrum(title: "Hogwarts", attendees: ["Minerva", "Albus", "Severus", "Harry", "Hermionie", "Ron", "Salazar", "Helga", "Rowena", "Godric"], lengthInMinutes: 10, theme: .yellow),
         DailyScrum(title: "Jedi Order", attendees: ["Anakin", "Obi Van", "Yoda", "Chewbacca", "Padmé"], lengthInMinutes: 10, theme: .indigo),
         DailyScrum(title: "Cyberlife", attendees: ["Connor", "Markus", "Kara", "Luther", "Hank", "Carl"], lengthInMinutes: 15, theme: .seafoam)
     ]

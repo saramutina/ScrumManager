@@ -11,7 +11,7 @@ struct DetailView: View {
     @Binding var scrum: DailyScrum
     
     @State private var data = DailyScrum.Data()
-    @State private var isEditViewPresented = false
+    @State private var isPresentingEditView = false
     
     var body: some View {
         List {
@@ -47,23 +47,23 @@ struct DetailView: View {
         .navigationTitle(scrum.title)
         .toolbar {
             Button("Edit") {
-                isEditViewPresented = true
+                isPresentingEditView = true
                 data = scrum.data
             }
         }
-        .sheet(isPresented: $isEditViewPresented) {
+        .sheet(isPresented: $isPresentingEditView) {
             NavigationView {
                 DetailEditView(data: $data)
                     .navigationTitle(scrum.title)
                     .toolbar {
                         ToolbarItem(placement: .cancellationAction) {
                             Button("Cancel") {
-                                isEditViewPresented = false
+                                isPresentingEditView = false
                             }
                         }
                         ToolbarItem(placement: .confirmationAction) {
                             Button("Done") {
-                                isEditViewPresented = false
+                                isPresentingEditView = false
                                 scrum.update(from: data)
                             }
                         }
