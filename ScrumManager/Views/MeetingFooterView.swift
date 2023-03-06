@@ -24,14 +24,18 @@ struct MeetingFooterView: View {
     }
     private var speakerText: String {
         guard let speakerNumber = speakerNumber else { return "No more speakers" }
-        return "Speaker \(speakerNumber) of \(speakers.count)"
+        if isLastSpeaker {
+            return "Last speaker: \(speakers[speakerNumber - 1].name)"
+        } else {
+            return "Speaker \(speakerNumber) of \(speakers.count): \(speakers[speakerNumber - 1].name)"
+        }
     }
     
     var body: some View {
         VStack {
             HStack {
                 if isLastSpeaker {
-                    Text("Last Speaker")
+                    Text(speakerText)
                 } else {
                     Text(speakerText)
                     Spacer()
