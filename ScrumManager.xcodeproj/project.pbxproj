@@ -26,6 +26,8 @@
 		375DA16F2991279D00670C91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375DA16E2991279D00670C91 /* Preview Assets.xcassets */; };
 		3767AEA029BF70E2003F9038 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767AE9F29BF70E2003F9038 /* ErrorWrapper.swift */; };
 		3767AEA229BF7175003F9038 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767AEA129BF7175003F9038 /* ErrorView.swift */; };
+		3767AEA429C0DF64003F9038 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767AEA329C0DF64003F9038 /* MeetingTimerView.swift */; };
+		3767AEA629C0E2CA003F9038 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767AEA529C0E2CA003F9038 /* SpeakerArc.swift */; };
 		377A2D4F29A484FB00FFB8F2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A2D4E29A484FB00FFB8F2 /* DetailView.swift */; };
 		377A2D5129ABCD0000FFB8F2 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A2D5029ABCD0000FFB8F2 /* DetailEditView.swift */; };
 		377A2D5329AC67A200FFB8F2 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A2D5229AC67A200FFB8F2 /* ThemeView.swift */; };
@@ -54,6 +56,8 @@
 		375DA16E2991279D00670C91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3767AE9F29BF70E2003F9038 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		3767AEA129BF7175003F9038 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		3767AEA329C0DF64003F9038 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		3767AEA529C0E2CA003F9038 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		377A2D4E29A484FB00FFB8F2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		377A2D5029ABCD0000FFB8F2 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		377A2D5229AC67A200FFB8F2 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 				377A2D4E29A484FB00FFB8F2 /* DetailView.swift */,
 				37590A9B29AFDF68004A08CB /* MeetingFooterView.swift */,
 				37590A9529AE05D2004A08CB /* MeetingHeaderView.swift */,
+				3767AEA329C0DF64003F9038 /* MeetingTimerView.swift */,
 				375DA1692991279C00670C91 /* MeetingView.swift */,
 				3722BBD7299AD2A400DDA3DA /* ScrumsView.swift */,
 			);
@@ -107,6 +112,7 @@
 				377A2D5229AC67A200FFB8F2 /* ThemeView.swift */,
 				3722BBD3299AAA3500DDA3DA /* TrailingIconLablelStyle.swift */,
 				3767AEA129BF7175003F9038 /* ErrorView.swift */,
+				3767AEA529C0E2CA003F9038 /* SpeakerArc.swift */,
 			);
 			path = SupportingViews;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 				3722BBD0299A91F400DDA3DA /* DailyScrum.swift in Sources */,
 				377A2D4F29A484FB00FFB8F2 /* DetailView.swift in Sources */,
 				37590A9629AE05D2004A08CB /* MeetingHeaderView.swift in Sources */,
+				3767AEA429C0DF64003F9038 /* MeetingTimerView.swift in Sources */,
 				377A2D5129ABCD0000FFB8F2 /* DetailEditView.swift in Sources */,
 				3767AEA029BF70E2003F9038 /* ErrorWrapper.swift in Sources */,
 				3722BBCE2992B09000DDA3DA /* Theme.swift in Sources */,
@@ -256,6 +263,7 @@
 				3722BBD2299A9B8200DDA3DA /* CardView.swift in Sources */,
 				37590AA629B0115B004A08CB /* AVPlayer.swift in Sources */,
 				377A2D5329AC67A200FFB8F2 /* ThemeView.swift in Sources */,
+				3767AEA629C0E2CA003F9038 /* SpeakerArc.swift in Sources */,
 				3722BBD4299AAA3500DDA3DA /* TrailingIconLablelStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

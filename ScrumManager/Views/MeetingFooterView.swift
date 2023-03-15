@@ -25,9 +25,9 @@ struct MeetingFooterView: View {
     private var speakerText: String {
         guard let speakerNumber = speakerNumber else { return "No more speakers" }
         if isLastSpeaker {
-            return "Last speaker: \(speakers[speakerNumber - 1].name)"
+            return "Last speaker"
         } else {
-            return "Speaker \(speakerNumber) of \(speakers.count): \(speakers[speakerNumber - 1].name)"
+            return "Speaker \(speakerNumber) of \(speakers.count)"
         }
     }
     
